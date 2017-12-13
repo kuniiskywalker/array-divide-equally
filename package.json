@@ -1,0 +1,25 @@
+{
+  "name": "array-devide",
+  "version": "0.0.1",
+  "description": "Devide arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "maintainers": [
+    {
+      "email": "kuniiskywalker@gmail.com",
+      "name": "kuniiskywalker"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kuniiskywalker/array-devide.git"
+  },
+  "license": "MIT",
+  "author": "kuniiskywalker",
+  "devDependencies": {
+    "mocha": "~4.0.1",
+    "power-assert": "^1.4.4"
+  }
+}
