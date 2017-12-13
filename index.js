@@ -1,5 +1,4 @@
-module.exports = (ary, division) => {
-
+const getRange = (ary, division) => {
     var len = ary.length;
 
     var max = len < division ? len: division;
@@ -14,14 +13,18 @@ module.exports = (ary, division) => {
     for(var i = 0; i < max; i++) {
         range[i] = num;
         idx = idx + num;
+        if (surplus > 0) {
+            range[i]++;
+            idx++; 
+            surplus--;
+	}
     }
+    return range;
+}
 
-    var counter = 0;
-    for(var i = 0; i < surplus; i++) {
-        range[counter]++;
-        idx = idx + i;
-        counter++;
-    }
+module.exports = (ary, division) => {
+
+    var range = getRange(ary, division);
 
     var result = [];
     var idx = 0;
