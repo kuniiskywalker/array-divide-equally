@@ -7,13 +7,16 @@ describe('arrayDevide', () => {
         it('should return deivided into three when devide three', () => {
             assert(arrayDevide(data, 3).length === 3);
         });
+        it('should return deivided array', () => {
+            assert.deepEqual(arrayDevide(data, 3), [ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]);
+        });
     });
     context('When the array is not divisible', () => {
         var data = new Array(1, 2, 3, 4, 5, 6, 7); 
         it('should return deivided into three when devide three', () => {
             assert(arrayDevide(data, 3).length === 3);
         });
-        it('should return deivided into three when devide three', () => {
+        it('should return deivided array', () => {
             assert.deepEqual(arrayDevide(data, 3), [ [ 1, 2, 3 ], [ 4, 5 ], [ 6, 7 ] ]);
         });
     });
@@ -21,6 +24,9 @@ describe('arrayDevide', () => {
         var data = new Array(1, 2); 
         it('should return deivided into two', () => {
             assert(arrayDevide(data, 3).length === 2);
+        });
+        it('should return deivided array', () => {
+            assert.deepEqual(arrayDevide(data, 3), [ [ 1 ], [ 2 ] ]);
         });
     });
 });
