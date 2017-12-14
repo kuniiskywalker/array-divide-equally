@@ -1,7 +1,7 @@
 {
-  "name": "array-divide",
+  "name": "array-divide-equally",
   "version": "0.0.2",
-  "description": "Divide arrays",
+  "description": "Evenly divide an array",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.js"
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:kuniiskywalker/array-divide.git"
+    "url": "git@github.com:kuniiskywalker/array-divide-equally.git"
   },
   "license": "MIT",
   "author": "kuniiskywalker",
