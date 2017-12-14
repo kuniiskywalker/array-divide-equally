@@ -1,17 +1,17 @@
-# Array Devide
+# Array Divide
 
-[![CircleCI](https://circleci.com/gh/kuniiskywalker/array-devide/tree/master.svg?style=svg)](https://circleci.com/gh/kuniiskywalker/array-devide/tree/master)
+[![CircleCI](https://circleci.com/gh/kuniiskywalker/array-divide/tree/master.svg?style=svg)](https://circleci.com/gh/kuniiskywalker/array-divide/tree/master)
 
 ## Installation
 
 ```
-npm install array-devide --save
+npm install array-divide --save
 ```
 
 ## Usage
 
 ```javascript
-var arrayDevide = require('array-devide')
+var divide = require('array-divide')
 
 arrayDevide([1, 2, 3, 4, 5, 6], 3)
 //=> [ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]
@@ -23,6 +23,10 @@ arrayDevide([1, 2], 3)
 //=> [ [ 1 ], [ 2 ] ]
 
 ```
+
+### Methods
+
+* **divide(array)** Divided Array
 
 ## License
 

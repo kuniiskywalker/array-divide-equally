@@ -1,7 +1,7 @@
 {
-  "name": "array-devide",
+  "name": "array-divide",
   "version": "0.0.2",
-  "description": "Devide arrays",
+  "description": "Divide arrays",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.js"
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:kuniiskywalker/array-devide.git"
+    "url": "git@github.com:kuniiskywalker/array-divide.git"
   },
   "license": "MIT",
   "author": "kuniiskywalker",
