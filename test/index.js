@@ -2,6 +2,23 @@ var assert = require('power-assert');
 var devideEqually = require('../');
 
 describe('devideEqually', () => {
+    
+    context('When non-array', () => {
+        it('should throw an error', function () {
+            assert.throws(function () {
+                devideEqually('test')
+            }, TypeError)
+        })
+    });
+
+    context('When division is not number', () => {
+        it('should throw an error', function () {
+            assert.throws(function () {
+                devideEqually([1,2,3], 'test')
+            }, TypeError)
+        })
+    });
+
     context('When the array is divisible', () => {
         var data = new Array(1, 2, 3, 4, 5, 6); 
         it('should return deivided into three when devide three', () => {

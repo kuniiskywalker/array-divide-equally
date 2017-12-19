@@ -1,8 +1,8 @@
 {
   "name": "array-divide-equally",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Evenly divide an array",
-  "main": "index.js",
+  "main": "array-divide-equally.js",
   "scripts": {
     "test": "mocha test/*.js"
   },
