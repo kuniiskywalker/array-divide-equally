@@ -13,13 +13,13 @@ npm install array-divide-equally --save
 ```javascript
 var divideEqually = require('array-divide-equally')
 
-devideEqually([1, 2, 3, 4, 5, 6], 3)
+divideEqually([1, 2, 3, 4, 5, 6], 3)
 //=> [ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]
 
-devideEqually([1, 2, 3, 4, 5, 6, 7], 3)
+divideEqually([1, 2, 3, 4, 5, 6, 7], 3)
 //=> [ [ 1, 2, 3 ], [ 4, 5 ], [ 6, 7 ] ]
 
-devideEqually([1, 2], 3)
+divideEqually([1, 2], 3)
 //=> [ [ 1 ], [ 2 ] ]
 
 ```
